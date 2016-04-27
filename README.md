@@ -1,2 +1,2 @@
 # mariadb.com-blog
-posts for the MariaDB Corporation blog
+Posts for the MariaDB Corporation blog that will appear at the [MariaDB Corporation blog](https://mariadb.com/blog). Raw Markdown here, which is generated to HTML and sent to marketing to post. Presumably all this ends up at [Colin's blog](https://mariadb.com/blog/colin).
