@@ -1,0 +1,13 @@
+# Tokyo MariaDB updates
+
+In July, I visited Tokyo and it was a hotbed of technology (especially around databases). The yearly event, [dbtechshowcase 2016](http://www.db-tech-showcase.com/tokyo_2016_jp) was held at the Akihabara UDX and there were a huge amount of talks. I focused on a talk that I've only ever given twice before this, [Lessons from database failures](http://www.slideshare.net/bytebot/lessons-from-database-failures). It was well received by the audience.
+
+Towards the end, there was some discussion about what I didn't get to talk about - many InfiniDB users are interested in [MariaDB ColumnStore](https://mariadb.com/products/mariadb-columnstore). So I talked about it in the hallway track and encouraged people to show up to the Tokyo MariaDB User Group Meetup.
+
+A few days later we had the [Tokyo MariaDB User Group Meetup](http://www.meetup.com/Tokyo-MariaDB-Community-Event/events/232384187/), organised by Spiral Arms, hosted at All About Corp. As for site invites, it was split into 3 sites, since the other two are Japanese focused and where most people signed up. We were greeted by a [Pepper robot](https://www.ald.softbankrobotics.com/en/cool-robots/pepper) at the office.
+
+I focused on [MariaDB 10.1: What's new and what's coming in 10.2](http://www.slideshare.net/bytebot/mariadb-101-whats-new-and-whats-coming-in-102-tokyo-mariadb-meetup) and I was happy to note that many are using MariaDB Server 10.0 and 10.1 already. Encryption has been a key for many. There was also a talk on groonga/mroonga, and we realised that the versions shipping inside of MariaDB Server are quite dated - there has to be a goal to ensure that the developers can commit directly (but first, they also have to ensure that mroonga builds on all platforms that we support, e.g. [OpenBSD](https://jira.mariadb.org/browse/MDEV-7209) and [FreeBSD](https://jira.mariadb.org/browse/MDEV-9229)). Of course it was wonderful to hear about the SPIDER roadmap and what's planned, considering more users of this engine these days.
+
+The last talk was focused on MariaDB ColumnStore, which Kentoku gave in Japanese. This had lots of Q&A, and I think the most important bit is that the source is available on [github](https://github.com/mariadb-corporation/mariadb-columnstore-server). There were also questions around why some things were stored on github.com/mariadb-corporation and github.com/mariadb, and the clear explanation there was on ownership -- so we did talk about the [trademark](https://mariadb.org/about/trademark/) document. After that it was free for all sushi, beer and some other snacks so people could cheers and talk for about an hour plus. 
+
+All in, good two talks in Tokyo, and its clear that there are people very into databases there. 
